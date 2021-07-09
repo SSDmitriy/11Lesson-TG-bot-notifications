@@ -39,6 +39,7 @@ tasks.withType(JavaCompile) {
 }
 
 //type in terminal < gradlew clean empty_tests > and Enter
+//type in Jenkins in field "Tasks" < clean empty_tests > and Enter
 task empty_tests(type: Test){
     useJUnitPlatform{
         includeTags 'fakeTag'

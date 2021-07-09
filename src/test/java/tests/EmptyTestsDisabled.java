@@ -10,25 +10,25 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class EmptyTestsDisabled {
 
     @Test
-    @Disabled
+    @Disabled("Причина 1 откл теста")
     void justTest09(){
         assertTrue(false);
     }
 
     @Test
-    @Disabled
+    @Disabled("Cause 2 откл теста")
     void justTest10(){
         assertTrue(true);
     }
 
     @Test
-    @Disabled
+    @Disabled("Причина #003 откл теста")
     void justTest11(){
         assertTrue(false);
     }
 
     @Test
-    @Disabled
+    @Disabled("Caus4 #04 откл теста")
     void justTest12(){
         assertTrue(true);
     }
